@@ -84,14 +84,6 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
   ```cpp
   #include <LiquidCrystal.h>
 
-
-## 💻 Dependências
-
-- Biblioteca do LCD:
-Incluída por padrão na IDE do Arduino
-
-#include <LiquidCrystal.h>
-
 - IDE do Arduino: versão 1.8.x ou 2.x
 
 ## 🪛 Como Reproduzir o Projeto
