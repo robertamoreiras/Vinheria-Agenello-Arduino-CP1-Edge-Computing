@@ -23,11 +23,11 @@ Abaixo está o circuito montado no Tinkercad:
 
 - Indicação do nível de luminosidade:
 
-    - 🟢 Verde – Condição normal (entre 40% e 80%)
+    - 🟢 *Verde* – Condição normal (entre 40% e 80%)
 
-    - 🟡 Amarelo – Nível de alerta (30–40% ou 80–90%)
+    - 🟡 *Amarelo* – Nível de alerta (30–40% ou 80–90%)
 
-    - 🔴 Vermelho – Condição crítica (abaixo de 30% ou acima de 90%)
+    - 🔴 *Vermelho* – Condição crítica (abaixo de 30% ou acima de 90%)
 
 - Emissão de som pelo buzzer:
 
@@ -37,13 +37,13 @@ Abaixo está o circuito montado no Tinkercad:
 
 ## 🧠 Conceitos Envolvidos
 
-- Sensor LDR (Light Dependent Resistor): varia a resistência conforme a quantidade de luz incidente.
+- *Sensor LDR (Light Dependent Resistor):* varia a resistência conforme a quantidade de luz incidente.
 
-- Conversor Analógico–Digital (ADC): converte o sinal analógico (0–5V) em valores digitais de 0 a 1023.
+- *Conversor Analógico–Digital (ADC):* converte o sinal analógico (0–5V) em valores digitais de 0 a 1023.
 
-- Função map(): usada para transformar a faixa de leitura do LDR em porcentagem compreensível (0–100%).
+- *Função map():* usada para transformar a faixa de leitura do LDR em porcentagem compreensível (0–100%).
 
-- Display LCD (16x2): utilizado para mostrar mensagens e a animação do logo da Vinheria.
+- *Display LCD (16x2):* utilizado para mostrar mensagens e a animação do logo da Vinheria.
 
 ## 🧰 Componentes Utilizados
 | Componente | Quantidade | Pino no Arduino |
@@ -64,22 +64,26 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 ├── vinheria_agnello/
 │   └── vinheria_agnello.ino      # Código principal do sistema embarcado
 └── README.md                     # Documentação do projeto
+```
 
 ## 🔌 Esquema de Funcionamento
 
-1. O LDR mede a quantidade de luz no ambiente.
-
-2. O Arduino converte o sinal analógico para digital e calcula a porcentagem.
-
+1. O **LDR** mede a quantidade de luz no ambiente.  
+2. O **Arduino** converte o sinal analógico para digital e calcula a porcentagem.  
 3. Dependendo da luminosidade:
+   - Acende o **LED correspondente** (verde, amarelo ou vermelho).  
+   - Aciona o **buzzer** conforme o nível de alerta.  
+4. O **display LCD** mostra a luminosidade e o status atual.  
+5. Na inicialização, o LCD exibe uma **animação com o logo da Vinheria Agnello**.
 
-    - Acende o LED correspondente (verde, amarelo ou vermelho).
+## 💻 Dependências
 
-    - Aciona o buzzer conforme o nível de alerta.
+- **Biblioteca do LCD:**  
+  Incluída por padrão na IDE do Arduino.  
 
-4. O display mostra a luminosidade e o status atual.
+  ```cpp
+  #include <LiquidCrystal.h>
 
-5. Na inicialização, o LCD exibe uma animação com o logo da Vinheria Agnello.
 
 ## 💻 Dependências
 
@@ -93,17 +97,12 @@ Incluída por padrão na IDE do Arduino
 ## 🪛 Como Reproduzir o Projeto
 
 1. Monte o circuito conforme a tabela de pinos acima.
-
 2. Conecte o Arduino ao computador via cabo USB.
-
 3. Abra o código no Arduino IDE (.ino).
-
 4. Vá em:
     - 👉 Ferramentas → Placa → Arduino Uno
     - 👉 Porta → COMx (porta do seu Arduino)
-
 5. Clique em Verificar ✅ e depois em Enviar ⬆️.
-
 6. Observe no LCD e LEDs as leituras de luminosidade e os alertas sonoros.
 
 ## 👥 Integrantes do Grupo
