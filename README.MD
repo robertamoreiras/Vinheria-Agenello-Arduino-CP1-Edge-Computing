@@ -57,14 +57,13 @@ Abaixo está o circuito montado no Tinkercad:
 | Resistores (220Ω–10kΩ) | 4 |	—  |
 
 ## 📂 Estrutura do Projeto
-
+```plaintext
 PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 ├── imgs/
 │   └── circuito.png              # Imagem do circuito (montagem ou simulação)
 ├── vinheria_agnello/
 │   └── vinheria_agnello.ino      # Código principal do sistema embarcado
 └── README.md                     # Documentação do projeto
-
 
 ## 🔌 Esquema de Funcionamento
 
