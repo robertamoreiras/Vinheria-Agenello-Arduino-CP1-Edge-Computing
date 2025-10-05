@@ -48,6 +48,7 @@ Abaixo está o circuito montado no Tinkercad:
 ## 🧰 Componentes Utilizados
 | Componente | Quantidade | Pino no Arduino |
 |------------|------------|-----------------|
+| Protoboard | 1 | — |
 | Sensor LDR |  	1	  |        A0       |
 | LED Verde  |  	1	  |        9        |
 | LED Amarelo|  	1	  |        10       |
