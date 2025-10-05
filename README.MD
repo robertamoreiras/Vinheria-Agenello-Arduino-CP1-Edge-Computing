@@ -79,7 +79,7 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 ## 💻 Dependências
 
 - **Biblioteca do LCD:**  
-  Incluída por padrão na IDE do Arduino.  
+  Incluída na IDE do Arduino.  
 
   ```cpp
   #include <LiquidCrystal.h>
@@ -88,7 +88,7 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 
 ## 🪛 Como Reproduzir o Projeto
 
-1. Monte o circuito conforme a tabela de pinos acima.
+1. Monte o circuito conforme o circuito disponível em `imgs/image_circuit.png`.
 2. Conecte o Arduino ao computador via cabo USB.
 3. Abra o código no Arduino IDE (.ino).
 4. Vá em:
