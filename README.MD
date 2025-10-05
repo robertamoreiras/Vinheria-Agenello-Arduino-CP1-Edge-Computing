@@ -1,19 +1,19 @@
-## 🍷 Vinheria Agnello – Sistema de Monitoramento de Luminosidade
+## Vinheria Agnello – Sistema de Monitoramento de Luminosidade
 
-## 🧩 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto foi desenvolvido para a Vinheria Agnello, empresa fictícia, com o objetivo de monitorar a luminosidade do ambiente onde os vinhos são armazenados.
 A qualidade do vinho depende diretamente das condições de temperatura, umidade e luminosidade, e, nesta primeira etapa, o foco é controlar a luminosidade por meio de um sensor LDR conectado ao Arduino.
 
 O sistema utiliza LEDs para indicar o estado do ambiente, um buzzer para emitir alertas sonoros e um display LCD 16x2 que exibe informações e uma animação de boas-vindas.
 
-## 🦾 Circuito
+## Circuito
 
 Abaixo está o circuito montado no Tinkercad:
 
 ![Circuito da Vinheria Agnello](./imgs/circuito.png)
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Captura da luminosidade do ambiente usando um sensor LDR.
 
@@ -35,7 +35,7 @@ Abaixo está o circuito montado no Tinkercad:
 
     - Som contínuo de 3 segundos no modo Crítico
 
-## 🧠 Conceitos Envolvidos
+## Conceitos Envolvidos
 
 - *Sensor LDR (Light Dependent Resistor):* varia a resistência conforme a quantidade de luz incidente.
 
@@ -45,7 +45,7 @@ Abaixo está o circuito montado no Tinkercad:
 
 - *Display LCD (16x2):* utilizado para mostrar mensagens e a animação do logo da Vinheria.
 
-## 🧰 Componentes Utilizados
+## Componentes Utilizados
 | Componente | Quantidade | Pino no Arduino |
 |------------|------------|-----------------|
 | Protoboard | 1 | — |
@@ -57,7 +57,7 @@ Abaixo está o circuito montado no Tinkercad:
 | Display LCD 16x2 | 1 | 2–8 (RS, E, D4–D7) |
 | Resistores (220Ω–10kΩ) | 4 |	—  |
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```plaintext
 PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 ├── imgs/
@@ -67,7 +67,7 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 └── README.md                     # Documentação do projeto
 ```
 
-## 🔌 Esquema de Funcionamento
+## Esquema de Funcionamento
 
 1. O **LDR** mede a quantidade de luz no ambiente.  
 2. O **Arduino** converte o sinal analógico para digital e calcula a porcentagem.  
@@ -77,7 +77,7 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 4. O **display LCD** mostra a luminosidade e o status atual.  
 5. Na inicialização, o LCD exibe uma **animação com o logo da Vinheria Agnello**.
 
-## 💻 Dependências
+## Dependências
 
 - **Biblioteca do LCD:**  
   Incluída na IDE do Arduino.  
@@ -87,18 +87,18 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 
 - IDE do Arduino: versão 1.8.x ou 2.x
 
-## 🪛 Como Reproduzir o Projeto
+## Como Reproduzir o Projeto
 
 1. Monte o circuito conforme a imagem: `imgs/image_circuit.png`.
 2. Conecte o Arduino ao computador via cabo USB.
 3. Abra o código no Arduino IDE (.ino).
 4. Vá em:
-    - 👉 Ferramentas → Placa → Arduino Uno
-    - 👉 Porta → COMx (porta do seu Arduino)
-5. Clique em Verificar ✅ e depois em Enviar ⬆️.
+    - Ferramentas → Placa → Arduino Uno
+    - Porta → COMx (porta do seu Arduino)
+5. Clique em Verificar e depois em Enviar.
 6. Observe no LCD e LEDs as leituras de luminosidade e os alertas sonoros.
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 
 - Lara Mofid Essa Alssabak – RM: 567947
 
@@ -106,6 +106,6 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 
 - Roberta Moreira dos Santos – RM: 567825
 
-## 📅 Etapa 1 do Projeto Vinheria Agnello
+## Etapa 1 do Projeto Vinheria Agnello
 
 Desenvolvimento de um sistema de monitoramento da luminosidade utilizando Arduino, com indicadores visuais e sonoros e um display LCD com logo animado da empresa.
