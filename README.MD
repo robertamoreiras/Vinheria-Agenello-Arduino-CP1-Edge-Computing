@@ -89,7 +89,7 @@ PROJETO VINHERIA AGNELLO - CP1 EDGE COMPUTING/
 
 ## 🪛 Como Reproduzir o Projeto
 
-1. Monte o circuito conforme o circuito disponível em `imgs/image_circuit.png`.
+1. Monte o circuito conforme a imagem: `imgs/image_circuit.png`.
 2. Conecte o Arduino ao computador via cabo USB.
 3. Abra o código no Arduino IDE (.ino).
 4. Vá em:
