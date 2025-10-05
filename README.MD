@@ -9,7 +9,7 @@ O sistema utiliza LEDs para indicar o estado do ambiente, um buzzer para emitir 
 
 ## 🦾 Circuito
 
-Abaixo está o circuito montado no Wokwi:
+Abaixo está o circuito montado no Tinkercad:
 
 ![Circuito da Vinheria Agnello](./imgs/circuito.png)
 
